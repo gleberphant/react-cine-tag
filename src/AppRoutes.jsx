@@ -1,0 +1,21 @@
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+
+import Layout from './pages/Layout/Layout';
+
+import PageHome from './pages/PageHome/PageHome';
+import PageFavoritos from './pages/PageFavoritos/PageFavoritos';
+import PageNaoEncontrada from './pages/PageNaoEncontrada/PageNaoEncontrada';
+
+export default function AppRoutes() {
+	return (
+		<BrowserRouter>
+			<Routes>
+				<Route path='/' element={<Layout />}>
+					<Route index element={<PageHome />} />
+					<Route path='favoritos' element={<PageFavoritos />} />
+					<Route path='*' element={<PageNaoEncontrada />}></Route>
+				</Route>
+			</Routes>
+		</BrowserRouter>
+	);
+}

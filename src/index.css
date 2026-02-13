@@ -1,0 +1,35 @@
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fontes/Montserrat-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900; /* Define que este arquivo cobre pesos de 100 a 900 */
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "Montserrat";
+  src: url("/fontes/Montserrat-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: 100 900;
+  font-style: italic;
+  font-display: swap;
+}
+
+:root {
+  --fonte: "Montserrat", sans-serif;
+  --branco: #ffffff;
+  --preto: #000000;
+  --cinza: #e2e2e2;
+}
+
+body {
+  margin: 0;
+  font-family: var(--fonte);
+  background-color: var(--branco);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family:
+    source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}

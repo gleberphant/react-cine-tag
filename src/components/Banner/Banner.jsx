@@ -1,7 +1,9 @@
+import styles from './Banner.module.css'
+
 export default function Banner({imagem}){
     return (
-        <><img
-        src={`/imagens/banner-${imagem}.png`}>
-        </img></>
+        <><div className={styles.capa}
+        style={{ backgroundImage: `url(/imagens/banner-${imagem}.png)`}}>
+        </div></>
     )
 }

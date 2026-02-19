@@ -3,13 +3,19 @@ import Banner from '../../components/Banner/Banner';
 import styles from './Player.module.css';
 import Titulo from '../../components/Titulo/Titulo';
 import listaVideos from '../../json/db';
+import PageNaoEncontrada from '../PageNaoEncontrada/PageNaoEncontrada';
 
 export default function Player() {
 	const parametros = useParams();
 
 	const video = listaVideos.find((item) => Number(parametros.id) === item.id);
 
-	if (video) console.log(video);
+	if (!video)
+		return (
+			<>
+				<PageNaoEncontrada />
+			</>
+		);
 
 	return (
 		<>

@@ -1,7 +1,8 @@
-import styles from './PageHome.module.css';
 import Banner from '../../components/Banner/Banner';
 import Titulo from '../../components/Titulo/Titulo';
 import Card from '../../components/Card/Card';
+import Container from '../../components/Container/Container';
+
 import jsonVideo from '../../json/db.json';
 
 export default function PageHome() {
@@ -9,15 +10,15 @@ export default function PageHome() {
 		<>
 			<Banner imagem='home'></Banner>
 			<Titulo>
-				<h1>Lugar para guardar seus vídeos</h1>
+				Lugar para guardar seus vídeos
 			</Titulo>
-			<section className={styles.container}>
+			<Container>
 				{jsonVideo.map((item) => {
 					return (
-						<Card id={item.id} titulo={item.titulo} capa={item.capa}></Card>
+						<Card key={ item.id} id={item.id} titulo={item.titulo} capa={item.capa}></Card>
 					);
 				})}
-			</section>
+			</Container>
 		</>
 	);
 }

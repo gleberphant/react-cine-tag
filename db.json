@@ -2,9 +2,9 @@
     "videos": [
     {
         "id": 1,
-        "titulo": "O labirinto do Logcat",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img2.png",
-        "link": "https://www.youtube.com/embed/ypvGqZGJBls"
+        "titulo": "Aprenda a Escolher Um Bom Teclado Mecânico / Magnético Custo Benefício (e a diferença entre eles)",
+        "capa": "",
+        "link": "https://www.youtube.com/embed/wqgTeIXnCs8"
     },
     {
         "id": 2,

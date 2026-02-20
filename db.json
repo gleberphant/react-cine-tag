@@ -8,20 +8,20 @@
     },
     {
         "id": 2,
-        "titulo": "Um componente no espaço",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img1.png",
-        "link": "https://www.youtube.com/embed/jK0uiQ1ZQQQ"
+        "titulo": "Teclado Magnético Bom e Barato Attack Shark x68 He - Surpreendeu Muito",
+        "capa": "https://img.youtube.com/vi/AHDypImYoFg/maxresdefault.jpg",
+        "link": "https://www.youtube.com/embed/AHDypImYoFg"
     },
     {
         "id": 3,
         "titulo": "O poderoso JavaScript",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img4.png",
-        "link": "https://www.youtube.com/embed/N1BSG02z-Mw"
+        "capa": "https://img.youtube.com/vi/uzgoD5wL9WQ/maxresdefault.jpg",
+        "link": "https://www.youtube.com/embed/uzgoD5wL9WQ"
     },
     {
         "id": 4,
         "titulo": "Dart, o Caçador de Andróides",
-        "capa": "https://caelum-online-public.s3.amazonaws.com/2802-react-praticando/img3.png",
-        "link": "https://www.youtube.com/embed/LLmBWjF6F8M"
+        "capa": "https://img.youtube.com/vi/u3rx64V8UyM/maxresdefault.jpg",
+        "link": "https://www.youtube.com/embed/u3rx64V8UyM"
     }
 ]}

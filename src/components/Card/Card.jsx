@@ -20,7 +20,7 @@ export default function Card({
 
 	return (
 		<div className={styles.container}>
-			<Link className={styles.link} to={`video/${id}`}>
+			<Link className={styles.link} to={`/video/${id}`}>
 				<img src={capa} alt={titulo} className={styles.capa} />
 
 				<h2>

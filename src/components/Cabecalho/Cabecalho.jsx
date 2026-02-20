@@ -2,22 +2,21 @@ import { Link } from 'react-router-dom';
 
 import logo from '../../assets/logo.png';
 import styles from './cabecalho.module.css';
-import CabecalhoLink from './CabecalhoLink/CabecalhoLink';
 
 export default function Cabecalho() {
 	return (
 		<div className={styles.cabecalho}>
-			<CabecalhoLink url='./'>
+			<Link className={styles.link} to='./'>
 				<img src={logo} alt='logo do app'></img>
-			</CabecalhoLink>
+			</Link>
 			<nav>
-				<CabecalhoLink url='/'>
+				<Link className={styles.link} to='./'>
 					<span>Home</span>
-				</CabecalhoLink>
+				</Link>
 
-				<CabecalhoLink url='/favoritos'>
+				<Link className={styles.link} to='./favoritos'>
 					<span>Favoritos</span>
-				</CabecalhoLink>
+				</Link>
 			</nav>
 		</div>
 	);
